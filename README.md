@@ -130,11 +130,11 @@ As principais conversões disponíveis no programa são:
 
 - **Líder**: *Fernando Hali Santos Andrade*  
 - **Desenvolvedores**:
-   - *Desenvolvedor 1*: Implementação de Comprimento  
+   - *Fernando Hali Santos Andrade*: Implementação de Comprimento  
    - *Desenvolvedor 2*: Implementação de Massa  
-   - *Desenvolvedor 3*: Implementação de Volume  
+   - *Fernando Hali Santos Andrade*: Implementação de Volume  
    - *Desenvolvedor 4*: Implementação de Temperatura  
-   - *Desenvolvedor 5*: Implementação de Velocidade  
+   - *Heli Neres Silva*: Implementação de Velocidade  
    - *Desenvolvedor 6*: Implementação de Energia  
    - *Desenvolvedor 7*: Implementação de Área  
    - *Desenvolvedor 8*: Implementação de Tempo  
