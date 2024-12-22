@@ -1,37 +1,23 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <locale.h>
+#include "volume.h"
 
-void metroCubicoParaLitros();
-void metroCubicoParaMililitros();
-void litrosParaMetroCubico();
-void litrosParaMililitros();
-void mililitrosParaMetroCubico();
-void mililitrosParaLitros();
-
-int main()
+void menu_Volume()
 {
-	// Configurações para suportar caracteres especiais
-	// Tentei de todas as formas, mas ainda tá dando erro.
-	setlocale(LC_ALL, "Portuguese");
-
 	int op;
 
 	do
 	{
-		printf("\nEscolha uma opção para converter:\n");
+		printf("\nEscolha uma opção para converter volume:\n");
 		printf("1 - Metro cúbico para Litros\n");
 		printf("2 - Metro cúbico para Mililitros\n");
 		printf("3 - Litros para Metro cúbico\n");
 		printf("4 - Litros para Mililitros\n");
 		printf("5 - Mililitros para Metro cúbico\n");
 		printf("6 - Mililitros para Litros\n");
-		printf("0 - Sair\n");
+		printf("0 - Voltar\n");
 		printf("Opção: ");
 		scanf("%d", &op);
 
-
-		// no switch foi colocado as função, quando entrar na case do switch vai chamar a função.
 		switch (op)
 		{
 		case 1:
@@ -53,17 +39,14 @@ int main()
 			mililitrosParaLitros();
 			break;
 		case 0:
-			printf("Encerrando o programa.\n");
+			printf("Voltando ao menu principal.\n");
 			break;
 		default:
 			printf("Opção inválida! Tente novamente.\n");
 		}
 	} while (op != 0);
-
-	return 0;
 }
 
-// Funções de conversão
 void metroCubicoParaLitros()
 {
 	float valor, resultado;
