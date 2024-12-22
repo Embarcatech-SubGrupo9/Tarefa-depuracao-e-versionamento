@@ -130,7 +130,7 @@ As principais conversões disponíveis no programa são:
 
 - **Líder**: *Fernando Hali Santos Andrade*  
 - **Desenvolvedores**:
-   - *Fernando Hali Santos Andrade*: Implementação de Comprimento  
+   - *Angela Marim Bosetti*: Implementação de Comprimento  
    - *Leandro Alves dos Santos*: Implementação de Massa  
    - *Fernando Hali Santos Andrade*: Implementação de Volume  
    - *Leandro Alves dos Santos*: Implementação de Temperatura  
