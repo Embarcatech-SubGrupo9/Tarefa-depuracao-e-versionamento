@@ -30,7 +30,7 @@ float HorasParaMinutos(float h) {
     return (float)h * 60;
 }
 
-int main() {
+int menu_Tempo() {
 
     do {
     printf("\n ----------------Conversor de Tempo----------------\n");

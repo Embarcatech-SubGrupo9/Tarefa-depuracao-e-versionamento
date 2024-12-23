@@ -13,7 +13,7 @@ int main()
 
     do
     {
-        printf("\nEscolha uma opção para converter:\n");
+        printf("\nEscolha uma opcao para converter:\n");
         printf("1 - Comprimento\n");
         printf("2 - Massa\n");
         printf("3 - Volume\n");
@@ -46,13 +46,13 @@ int main()
                   break;
               case 6:
                   menu_Energia(); // Chama a função de conversão de Energia
-                  break;
-              case 7:
-                  menu_Area(); // Chama a função de conversão de area.
+                  break;*/
+        case 7:
+            menu_Area(); // Chama a função de conversão de area.
             break;
         case 8:
             menu_Tempo(); // Chama a função de conversão de tempo
-            break;*/
+            break;
         case 9:
             menu_Dados(); // Chama a função de conversão de dados
             break;
