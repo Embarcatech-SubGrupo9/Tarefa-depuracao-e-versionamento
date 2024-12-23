@@ -12,7 +12,7 @@ void Converter(double Valor, int UnidadeOrigem, int UnidadeDestino)
     printf("Valor convertido: %.4f\n", ValorConvertido);
 }
 
-int main()
+int menu_Comprimento()
 {
     int UnidadeOrigem, UnidadeDestino;
     double Valor;
