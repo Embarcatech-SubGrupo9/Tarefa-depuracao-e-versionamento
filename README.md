@@ -138,6 +138,6 @@ As principais conversões disponíveis no programa são:
    - *Desenvolvedor 6*: Implementação de Energia  
    - *Desenvolvedor 7*: Implementação de Área  
    - *Desenvolvedor 8*: Implementação de Tempo  
-   - *Desenvolvedor 9*: Implementação de Dados  
+   - *Luis Eduardo F. S. Pereira*: Implementação de Dados  
 
 ---
