@@ -1,3 +1,4 @@
+
 # Conversor de Unidades em Linguagem C
 
 Este projeto consiste na implementação de um programa **Conversor de Unidades** utilizando a linguagem de programação **C**. O foco é a prática de conceitos de **versionamento** com **Git** e **GitHub**, além do desenvolvimento colaborativo em equipe.
@@ -30,35 +31,46 @@ As principais conversões disponíveis no programa são:
 
 ## 🛠️ Como Executar o Projeto
 
-1. **Clonar o Repositório**:  
-   ```bash
-   git clone https://github.com/seu-usuario/nome-do-repositorio.git](https://github.com/fernandohali/Embarcatech-Tarefas.git
-   cd nome-do-repositorio
-   ```
+### 1. Clonar o Repositório
 
-2. **Compilar o Código**:  
-   Utilize um compilador de C como `gcc`. Exemplo:  
-   ```bash
-   gcc main.c -o conversor
-   ```
+Primeiro, clone o repositório para sua máquina local:
 
-3. **Executar o Programa**:  
-   ```bash
-   ./conversor
-   ```
+```bash
+git clone https://github.com/seu-usuario/nome-do-repositorio.git
+cd nome-do-repositorio
+```
+
+### 2. Compilar os Arquivos do Projeto
+
+Utilize um compilador de C como `gcc` para compilar todos os arquivos necessários. Execute o seguinte comando:
+
+```bash
+gcc interface.c volume.c dados.c .\temperatura.c .\massa.c .\area.c .\tempo.c .\energia.c .\velocidade.c .\comprimento.c
+```
+
+### 3. Executar o Programa
+
+Após a compilação, execute o programa gerado com o seguinte comando:
+
+```bash
+./a.exe
+```
+
+Isso iniciará o programa no terminal. Certifique-se de que todos os arquivos mencionados estejam no mesmo diretório.
 
 ---
 
 ## 💻 Estrutura do Projeto
 
 ```
-├── main.c                 # Arquivo principal do programa
+├── interface.c                 # Arquivo principal do programa
+|-- interface.h  
 ├── funcoes/               # Pasta com funções específicas de conversão
 │   ├── comprimento.c
 │   ├── massa.c
 │   ├── temperatura.c
 │   ├── ...
-│   └── funcoes.h
+│  
 ├── README.md              # Documentação do projeto
 └── testes/                # Testes e validação do programa
 ```
@@ -130,14 +142,12 @@ As principais conversões disponíveis no programa são:
 
 - **Líder**: *Fernando Hali Santos Andrade*  
 - **Desenvolvedores**:
-   - *Fernando Hali Santos Andrade*: Implementação de Comprimento  
+   - *Angela Marim Bosetti*: Implementação de Comprimento  
    - *Leandro Alves dos Santos*: Implementação de Massa  
-   - *Fernando Hali Santos Andrade*: Implementação de Volume  
    - *Leandro Alves dos Santos*: Implementação de Temperatura  
+   - *Fernando Hali Santos Andrade*: Implementação de Volume  
    - *Heli Neres Silva*: Implementação de Velocidade  
-   - *Desenvolvedor 6*: Implementação de Energia  
-   - *Desenvolvedor 7*: Implementação de Área  
-   - *Desenvolvedor 8*: Implementação de Tempo  
+   - *Heli Neres Silva*: Implementação de Energia  
+   - *Gabriel Adriano de Jesus Reis*: Implementação de Área  
+   - *Gabriel Adriano de Jesus Reis*: Implementação de Tempo  
    - *Luis Eduardo F. S. Pereira*: Implementação de Dados  
-
----
