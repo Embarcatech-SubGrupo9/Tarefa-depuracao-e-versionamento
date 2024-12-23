@@ -2,9 +2,10 @@
 #include <stdlib.h>//Biblioteca
 
 int main(){
-    long int dados;//Foi ultilizado long int devido a sua capacidade de armazenamento superior.
+    long int dados;//Foi utilizado long int devido a sua capacidade de armazenamento superior.
     int unidade[2];
 
+    system("cls");
     printf("Tabela de valores de conversão, escolha um valor para converter\n");
     printf("Escolha  Unidade     Simbolo   Valor\n");
     printf("1        1 bit       1 b       (0 ou 1)\n");
@@ -16,7 +17,7 @@ int main(){
     printf("7        1 Exabyte   1 EB      1024 Perabytes\n\n");
     printf("Digite a unidade de medida que você tem: ");
     scanf("%d", &unidade[0]);
-    printf("Digite a unidade de medida que você converte: ");
+    printf("Digite a unidade de medida que você quer converte: ");
     scanf("%d", &unidade[1]);
     printf("Digite o tamanho: ");
     scanf("%d", &dados);
