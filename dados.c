@@ -5,21 +5,41 @@
 float calculo(int *UNIDADE, float DADOS){
     int contado;
 
-    contado = UNIDADE[0] - UNIDADE[1];
+    if(UNIDADE[0] > UNIDADE[1]){
+        contado = UNIDADE[0] - UNIDADE[1];
+        /*Aqui é subtraindo menos um da variável contado caso UNIDADE[0] seja igual a 1, o que significa que quero essa conversão em bit, mas para chegar nesta unidade é necessário multiplicar por 8 e o for que faça a conversão multiplica por 1024.*/
+        if(UNIDADE[1] == 1){
+            contado--;
+        }
 
-    /*Aqui é subtraindo menos um da variável contado caso UNIDADE[0] seja igual a 1, o que significa que quero essa conversão em bit, mas para chegar nesta unidade é necessário multiplicar por 8 e o for que faça a conversão multiplica por 1024.*/
-    if(UNIDADE[1] == 1){
-        contado--;
+        for(int i = 0; i < contado; i++){
+            DADOS = DADOS * 1024;
+        }
+
+        //Aqui faço a conversão para bit caso seja necessário.
+        if(UNIDADE[1] == 1){
+            DADOS = DADOS * 8;
+        }
+    }
+    else{
+        contado = UNIDADE[1] - UNIDADE[0];
+        printf("%d", contado);
+        if(UNIDADE[1] == 1){
+            contado--;
+        }
+        printf("%d", contado);
+        for(int i = 0; i < contado; i++){
+            DADOS = DADOS / 1024;
+        }
+
+        //Aqui faço a conversão para bit caso seja necessário.
+        if(UNIDADE[1] == 1){
+            DADOS = DADOS / 8;
+        }
     }
 
-    for(int i = 0; i < contado; i++){
-        DADOS = DADOS * 1024;
-    }
-
-    //Aqui faço a conversão para bit caso seja necessário.
-    if(UNIDADE[1] == 1){
-        DADOS = DADOS * 8;
-    }
+    printf("Dados: %f\n", DADOS);
+    system("pause");
 
     return DADOS;
 }
@@ -86,7 +106,6 @@ int main(){
         printf("6        1 Perabyte  PB      1024 GigaBytes\n");
         printf("7        1 Exabyte   EB      1024 Perabytes\n\n");
         printf("0 para sair da aplicação.\n");
-        printf("OBS: essa aplicação apenas realiza convenções de unidade maiores para menores.\n");
         printf("Digite a unidade de medida que você tem: ");
         scanf("%d", &unidade[0]);
         
@@ -117,8 +136,8 @@ int main(){
                     system("pause");
                     break;
                 case 3:
-                    resultado = calculo(unidade, dados);//
-                    exibir(unidade, resultado, dados);
+                    resultado = calculo(unidade, dados);//Chamada da função para realizar os cálculos.
+                    exibir(unidade, resultado, dados);//Chamada da função para exibir o resultado.
                     system("pause");
                     break;
                 case 4:
