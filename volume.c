@@ -1,5 +1,13 @@
 #include <stdio.h>
-#include "volume.h"
+
+// Declaração das funções
+void menu_Volume();
+void metroCubicoParaLitros();
+void metroCubicoParaMililitros();
+void litrosParaMetroCubico();
+void litrosParaMililitros();
+void mililitrosParaMetroCubico();
+void mililitrosParaLitros();
 
 void menu_Volume()
 {
