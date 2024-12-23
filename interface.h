@@ -9,8 +9,8 @@ void menu_Tempo();       // Declara a função para o menu de volume
 void menu_Temperatura();
 void menu_Area();
 
-/* void menu_Energia(); // Declara a função para o menu de volume
- */
+void menu_Energia(); // Declara a função para o menu de energia
+ 
 void menu_Dados(); // Declara a função para o menu de volume
 /* void menu_comprimento();
  */

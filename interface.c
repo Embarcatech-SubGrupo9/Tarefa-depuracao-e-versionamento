@@ -43,10 +43,10 @@ int main()
             break;
             /*   case 5:
                   menu_Velocidade(); // Chama a função de conversão de velocidade
-                  break;
-              case 6:
-                  menu_Energia(); // Chama a função de conversão de Energia
                   break;*/
+        case 6:
+            menu_Energia(); // Chama a função de conversão de Energia
+            break;
         case 7:
             menu_Area(); // Chama a função de conversão de area.
             break;
