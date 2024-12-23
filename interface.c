@@ -29,9 +29,9 @@ int main()
 
         switch (op)
         {
-        /* case 1:
+        case 1:
             menu_Comprimento(); // Chama a função de conversão de comprimento
-            break;*/
+            break;
         case 2:
             menu_Massa(); // Chama a função de conversão de massa
             break;
@@ -41,9 +41,9 @@ int main()
         case 4:
             menu_Temperatura(); // Chama a função de conversão de temperatura
             break;
-            /*   case 5:
-                  menu_Velocidade(); // Chama a função de conversão de velocidade
-                  break;*/
+        case 5:
+            menu_Velocidade(); // Chama a função de conversão de velocidade
+            break;
         case 6:
             menu_Energia(); // Chama a função de conversão de Energia
             break;

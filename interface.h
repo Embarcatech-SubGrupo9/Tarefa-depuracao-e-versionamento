@@ -10,6 +10,6 @@ void menu_Temperatura(); // ok
 void menu_Area();        // ok
 void menu_Energia();     // Declara a função para o menu de energia
 void menu_Dados();       // Declara a função para o menu de volume
-/* void menu_comprimento();
- */
+void menu_Comprimento();
+
 #endif
