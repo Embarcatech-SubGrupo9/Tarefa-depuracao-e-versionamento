@@ -13,7 +13,12 @@ float velocidade(int u1, float v1, int u2);
 
 int menu_Velocidade()
 {
-    velocidade(0, 0.0, 0);
+    float resultado;
+    do
+    {
+        resultado = velocidade(0, 0.0, 0);
+    } while (resultado != -1);
+    printf("Encerrando programa.");
 
     // aguarda alguma tecla ser pressionada antes de encerrar o programa
     getch();
@@ -24,9 +29,6 @@ int menu_Velocidade()
 
 float velocidade(int u1, float v1, int u2)
 {
-    // system("chcp 65001>null");
-    // inicializando variáveis
-    // int u1,u2;
     float v2; //,v2;
     char unidade[3][4] = {"km/h", "m/s", "mph"};
 
@@ -38,7 +40,14 @@ float velocidade(int u1, float v1, int u2)
         printf("1. Quilômetros por hora (km/h)\n");
         printf("2. Metros por segundo (m/s)\n");
         printf("3. Milhas por hora (mph)\n");
+        printf("4. Sair\n");
         scanf("%d", &u1);
+
+        if (u1 == 4)
+        {
+            return -1;
+        }
+
         printf("Digite o valor inicial: ");
         scanf("%f", &v1);
 

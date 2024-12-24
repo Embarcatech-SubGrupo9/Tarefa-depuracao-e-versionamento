@@ -14,7 +14,7 @@ float CentiQparaMetroQ(float m)
     return (float)m / 10000;
 }
 
-int menu_Area()
+void menu_Area()
 {
 
     do

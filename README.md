@@ -31,30 +31,22 @@ As principais conversões disponíveis no programa são:
 
 ## 🛠️ Como Executar o Projeto
 
-### 1. Clonar o Repositório
+1. **Clonar o Repositório**:  
+   ```bash
+   git clone https://github.com/seu-usuario/nome-do-repositorio.git](https://github.com/fernandohali/Embarcatech-Tarefas.git
+   cd nome-do-repositorio
+   ```
 
-Primeiro, clone o repositório para sua máquina local:
+2. **Compilar o Código**:  
+   Utilize um compilador de C como `gcc`. Exemplo:  
+   ```bash
+   gcc main.c -o conversor
+   ```
 
-```bash
-git clone https://github.com/seu-usuario/nome-do-repositorio.git
-cd nome-do-repositorio
-```
-
-### 2. Compilar os Arquivos do Projeto
-
-Utilize um compilador de C como `gcc` para compilar todos os arquivos necessários. Execute o seguinte comando:
-
-```bash
-gcc interface.c volume.c dados.c .\temperatura.c .\massa.c .\area.c .\tempo.c .\energia.c .\velocidade.c .\comprimento.c
-```
-
-### 3. Executar o Programa
-
-Após a compilação, execute o programa gerado com o seguinte comando:
-
-```bash
-./a.exe
-```
+3. **Executar o Programa**:  
+   ```bash
+   ./conversor
+   ```
 
 Isso iniciará o programa no terminal. Certifique-se de que todos os arquivos mencionados estejam no mesmo diretório.
 

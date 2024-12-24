@@ -2,7 +2,15 @@
 #include <stdlib.h>
 #include <locale.h>
 
-#include "interface.h"
+#include "massa.c"
+#include "area.c"
+#include "comprimento.c"
+#include "energia.c"
+#include "temperatura.c"
+#include "tempo.c"
+#include "velocidade.c"
+#include "volume.c"
+#include "dados.c"
 
 int main()
 {
