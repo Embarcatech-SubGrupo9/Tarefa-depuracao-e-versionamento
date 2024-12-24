@@ -1,3 +1,4 @@
+
 # Conversor de Unidades em Linguagem C
 
 Este projeto consiste na implementação de um programa **Conversor de Unidades** utilizando a linguagem de programação **C**. O foco é a prática de conceitos de **versionamento** com **Git** e **GitHub**, além do desenvolvimento colaborativo em equipe.
@@ -47,18 +48,21 @@ As principais conversões disponíveis no programa são:
    ./conversor
    ```
 
+Isso iniciará o programa no terminal. Certifique-se de que todos os arquivos mencionados estejam no mesmo diretório.
+
 ---
 
 ## 💻 Estrutura do Projeto
 
 ```
-├── main.c                 # Arquivo principal do programa
+├── interface.c                 # Arquivo principal do programa
+|-- interface.h  
 ├── funcoes/               # Pasta com funções específicas de conversão
 │   ├── comprimento.c
 │   ├── massa.c
 │   ├── temperatura.c
 │   ├── ...
-│   └── funcoes.h
+│  
 ├── README.md              # Documentação do projeto
 └── testes/                # Testes e validação do programa
 ```
@@ -130,14 +134,12 @@ As principais conversões disponíveis no programa são:
 
 - **Líder**: *Fernando Hali Santos Andrade*  
 - **Desenvolvedores**:
-   - *Fernando Hali Santos Andrade*: Implementação de Comprimento  
+   - *Angela Marim Bosetti*: Implementação de Comprimento  
    - *Leandro Alves dos Santos*: Implementação de Massa  
-   - *Fernando Hali Santos Andrade*: Implementação de Volume  
    - *Leandro Alves dos Santos*: Implementação de Temperatura  
+   - *Fernando Hali Santos Andrade*: Implementação de Volume  
    - *Heli Neres Silva*: Implementação de Velocidade  
-   - *Desenvolvedor 6*: Implementação de Energia  
-   - *Desenvolvedor 7*: Implementação de Área  
-   - *Desenvolvedor 8*: Implementação de Tempo  
-   - *Desenvolvedor 9*: Implementação de Dados  
-
----
+   - *Heli Neres Silva*: Implementação de Energia  
+   - *Gabriel Adriano de Jesus Reis*: Implementação de Área  
+   - *Gabriel Adriano de Jesus Reis*: Implementação de Tempo  
+   - *Luis Eduardo F. S. Pereira*: Implementação de Dados  
